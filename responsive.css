@@ -1,0 +1,154 @@
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+	body{
+		background-color: aqua;
+	}
+	
+.container {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.sub-header {
+	width: 100%;
+	height: auto;
+	display: block;
+	justify-content: space-between;
+	
+     margin-top: 20px;
+}
+.sub-address p {
+	font-size: 10px;
+	font-weight: 500;
+	color: black;
+}
+
+.sub-icon ul {
+	display: block;
+}
+.sub-icon ul li a {
+	font-size: 10px;
+	font-weight: 500;
+	color: black;
+}
+  }
+
+/*---------------------header----------------------*/
+/*
+.header {
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+.header .logo h1 {
+	width: 60px;
+	height: 20px;
+}
+.header .search-bar input {
+	display: none;
+}
+.add-to ul li a {
+	font-size: 10px;
+
+}
+.add-to h3 {
+	font-weight: 300;
+	font-size: 10px
+}
+.add-to i {
+	font-size: 10px;
+}
+
+
+/*  navigation bar *//*
+.main-navbar {
+	position: sticky;
+	margin-top: 20px;
+	width: 100%;
+	height: 80px;
+	margin-top: 30px;
+	background-color: rgb(6, 6, 32);
+	border-radius: 10px;
+}
+.navbar {
+	padding: 10px;
+
+}
+.content-navbar i {
+	font-size: 8px;
+}
+.content-navbar ul li{
+	display: none;
+}
+
+/*------------------Banner-----------------*//*
+
+.big-banner {
+	width: 100%;
+	height: 180px;
+	
+}
+.banner-1 {
+	width:50%;
+	height: 100%;
+	padding: 10px 0 0 10px;
+}
+.banner-1 h2 {
+	margin-top: 10px;
+	width: 90px;
+	height: 60px;
+	font-size: 10px;
+}
+.banner-1 p {
+	width: 90px;
+	margin: 7px;
+	padding: 3px;
+	border-radius: 30px;
+	font-size: 3px;
+}
+.banner-1 .btn1 {
+	margin: 6px 0 10px 0;
+	padding: 2px;
+	border: none;
+	width: 49px;
+	height: 20px;
+	font-size: 7px;
+
+
+}
+.banner-1 .btn2 {
+	margin: 6px 0 10px 0;
+	padding: 3px;
+	border: none;
+	width:49px;
+	height: 20px;
+	font-size: 7px;
+}
+.banner-2 {
+	width: 50%;
+
+}
+.banner-2 .s-banner-2 {
+	width: 110px;
+	height: 110px;
+}
+.s-banner-2 img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+
+}
+
+  @media screen and (max-width: 320px) {
+	body{
+		background-color: brown;
+	}
+	.container {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	}

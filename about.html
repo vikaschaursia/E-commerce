@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tenz</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+		integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="styleSheet" href="./style.css">
+	<link rel="stylesheet" href="./asset/product.css">
+	<link rel="stylesheet" href="./responsive.css">
+	<link rel="stylesheet" href="./asset/about.css">
+</head>
+ <style>
+	/* !!!!!!!!!!!!!!!!!!!---------------Contact.HTML---------------------!!!!!!!!!!!!!!!!!!!!!*/
+#contact-details{
+	margin-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;
+}
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+}
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form  button{
+    background-color: #088178;
+    color: white;
+}
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+ </style>
+<body>
+	<div class="container">
+		<div class="sub-header">
+			<div class="sub-address">
+				<p>FREE Express Shipping On Orders $99+</p>
+			</div>
+			<div class="sub-icon">
+				<ul>
+					<li>
+						<select name="" id="">
+							<option value="">USD</option>
+							<option value="">INR</option>
+						</select>
+					</li>
+					<li>
+						<select name="" id="">
+							<option value="">ENG</option>
+							<option value="">HINDI</option>
+						</select>
+					</li>
+					<li>
+						<i class="fa-solid fa-location-dot"></i>
+						<a href="">Our Stores</a>
+					</li>
+					<li>
+						<i class="fa-solid fa-truck"></i>
+						<a href="">Track Your Order</a>
+					</li>
+					<li>
+						<i class="fa-solid fa-question"></i>
+						<a href="">Help</a>
+					</li>
+					<li>
+						<i class="fa-regular fa-heart"></i>
+						<a href="">Wishlist</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!------------------header----------------------->
+
+		<div class="header">
+			<div class="logo">
+				<h1>TENZ</h1>
+				<h6 style=" margin-left: 20px; font-weight: 300;">e-commerce</h6>
+			</div>
+			<div class="search-bar">
+				<input type="text" placeholder="search..." />
+
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</div>
+			<div class="add-to">
+
+				<ul>
+					<i class="fa-solid fa-user"></i>
+					<li>
+						<h3>welcome</h3>
+						<a href="./contant.html">Sign In / Register</a>
+					</li>
+
+					<i class="fa-solid fa-bag-shopping"></i>
+					<li>
+						<a href="./cart.html">shopping cart</a>
+						<p>$0.00</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!------------------Navigation-bar----------------------->
+		<div class="main-navbar">
+			<nav class="navbar">
+				<div class="content-navbar">
+					<i class="fa-solid fa-bars"></i>
+					<div class="dropdown depart">
+						<a style="color: aliceblue;" href="">All Departments</a>
+						<div class="dropdown-content">
+							<ul>
+								<li> <a>Fashion</a>
+								<li> <a>Electronics</a></li>
+								<li><a>Table & Decos</a></li>
+								<li><a>Applance</a></li>
+								<li><a>Sports</a></li>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="content-navbar">
+					<ul>
+						<li>
+							<a href="./index.html">Home</a>
+							<a href="./product.html">Product</a>
+							<div class="dropdown depart">
+								<a href="">Features</a>
+								<div class="dropdown-content">
+									<ul style="color: black;">
+										<li><a href="">Simple product</a></li>
+										<li><a href="">style product</a></li>
+										<li><a href="">Table</a></li>
+										<li><a href="">chair</a></li>
+										<li><a href="">Tv</a></li>
+										<li><a href="">Simple product</a></li>
+										<li><a href="">Simple product</a></li>
+										<li><a href="">Simple product</a></li>
+									</ul>
+								</div>
+
+							</div>
+					
+							<a href="./about.html">About</a>
+							<div class="dropdown">
+								<a href="">Category</a>
+								<div class="dropdown-content">
+									<ul>
+										<li><a>Top brands</a></li>
+										<li><a>Electronics</a></li>
+										<li><a>Table style</a></li>
+										<li><a>Device</a></li>
+										<li><a>Trending</a></li>
+										<li><a> watch</a></li>
+										<li><a>TV</a></li>
+										<li><a>chair</a></li>
+						</li>
+					</ul>
+				</div>
+		</div>
+		</li>
+		</ul>
+	</div>
+	<div class="content-navbar"> Best offer Here</div>
+	</nav>
+	</div>
+	<!-- /* ---------------contact details---------------------*/ -->
+	<section id="contact-details" class="section-p1">
+		<div class="details">
+			<span>GET IN TOUCH</span>
+			<h2>Visit one of our agency location or contact us today</h2>
+			<h3>Head Office</h3>
+			<div>
+				<li>
+					<i class="fa-regular fa-map"></i>
+					<p>562 Washington Dc , San Francisco Good Valley</p>
+				</li>
+				<li>
+					<i class="fa-regular fa-envelope"></i>
+					<p>contact@example.com</p>
+				</li>
+				<li>
+					<i class="fa-solid fa-phone"></i>
+					<p>contact@example.in</p>
+				</li>
+				<li>
+					<i class="fa-regular fa-clock"></i>
+					<p>Monday to Saturday: 9.00am to 16.00pm</p>
+				</li>
+			</div>
+		</div>
+		<div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5556129.520048655!2d-126.16854180261818!3d47.15875793723121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485e5ffe7c3b0f9%3A0x944278686c5ff3ba!2sWashington%2C%20USA!5e0!3m2!1sen!2sin!4v1696226566609!5m2!1sen!2sin"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</section>
+	<!-- /* ---------------form details---------------------*/ -->
+	<section id="form-details">
+		<form action="">
+			<span>LEAVE A MESSAGE</span>
+			<h2>We love to hear from you!</h2>
+			<input type="text" placeholder="Your Name">
+			<input type="text" placeholder="E-mail">
+			<input type="text" placeholder="Subject">
+			<textarea name="" id="" cols="30" rows="10" placeholder="Your MESSAGE"></textarea>
+			<button class="normal">Submit</button>
+		</form>
+		<div class="people">
+			<div>
+				<img src="img/people/1.jpg" alt="">
+				<p><span>RajaTech</span> Wb developer <br>Phone: (+91) 01 2345 6789 <br>E-mail: contact@example.com</p>
+			</div>
+			<div>
+				<img src="img/people/2.jpg" alt="">
+				<p><span>XYZ</span> Wb desinger <br>Phone: (+91) 01 2345 6789 <br>E-mail: contact@example.com</p>
+			</div>
+			<div>
+				<img src="img/people/3.jpg" alt="">
+				<p><span>QRS</span> Ux/Ui developer <br>Phone: (+91) 01 2345 6789 <br>E-mail: contact@example.com</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- --------------reviews-summary------ -->
+	<div class="Reviews-Summary">
+		<div class="summary">
+			<h3>Reviews Summary by AI:</h3>
+			<p> Summary: <br>
+				The Honor Pad 7 is great for students, as it has a large 12-inch screen with stylus support, no ads,
+				good
+				battery life and quick charging. There are some drawbacks, such as bulky size, unclear video clarity,
+				and no
+				screen guard, but otherwise it is a good product, with excellent audio and fast performance.</p>
+			<p>
+			<h3>pros:</h3>
+			- Large 12-inch screen <br>
+			- Stylus support<br>
+			- No Ads<br>
+			- Good Battery Life<br>
+			- Quick Charging<br>
+			- Excellent Audio<br>
+			- Fast Performance<br> <br>
+
+			<h3>Cons:</h3>
+			- Bulky size <br>
+			- Unclear video clarity <br>
+			- No screen guard <br>
+
+			</p>
+		</div>
+
+	</div>
+	<!-- --------------describes-review -->
+	<div class="description">
+		<div class="btn-describe">
+			<a href=""> DESCRIPTION</a>
+			<a href=""> REVIEWS (10)</a>
+			<hr />
+		</div>
+
+		<p>
+
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, nostrud ipsum consectetur sed do, quis nostrud
+			exercitation
+			ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+			voluptate
+			velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat. <br>
+		</p>
+		<p>
+
+			Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+			exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt
+			ut
+			labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+			ut
+			aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+			enim
+			ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+
+		<!------------------contant-5---------->
+
+		<div class="latest">
+			<h1>Latest Post</h1>
+		</div>
+		<section class="big-contant-5">
+			<div class="small-contant-5">
+				<div class="contant-5">
+					<div class="img-box-4">
+						<img src="./img/product-14.jpg" alt="img">
+					</div>
+					<p>ELECTRONIC</p>
+					<h3>USB for Laptop</h3>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
+					</div>
+					<span> $28.00 </span>
+				</div>
+
+				<div class="contant-5">
+					<div class="img-box-4">
+						<img src="./img/product-15.jpg" alt="img">
+					</div>
+					<p> Special chair </p>
+					<h3>Special chair office</h3>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
+					</div>
+					<span>$50.00</span>
+				</div>
+
+				<div class="contant-5">
+					<div class="img-box-4">
+						<img src="./img/product-16.jpg" alt="img">
+					</div>
+					<p>chair fashion</p>
+					<h3>cucu chair </h3>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+
+					</div>
+					<span> $41.00 </span>
+				</div>
+
+				<div class="contant-5">
+					<div class="img-box-4">
+						<img src="./img/product-17.jpg" alt="img">
+					</div>
+					<p> ELECTRONICS, FASHION</p>
+					<h3>Wshing machine Automatics</h3>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-regular fa-star"></i>
+					</div>
+					<span>$81.00 – $113.00</span>
+				</div>
+				<div class="contant-5">
+					<div class="img-box-4">
+						<img src="./img/product-18.jpg" alt="img">
+					</div>
+					<p>AUTOMOTIVE, ELECTRONICS, FASHION,</p>
+					<h3>stainer Steel kitteli</h3>
+					<div class="star">
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<span>$20.00</span>
+				</div>
+			</div>
+		</section>
+
+
+	</div>
+
+
+	</div>
+
+
+
+
+
+	<!-----------------contant-10---------------------->
+	<section class="big-contant-10">
+		<div class="small-contant-10">
+			<i class="fa-solid fa-message"></i>
+			<div class="contant-10">
+				<h2>subscribe letter</h2>
+				<p>Get all the latest information on event sales
+					and offer sign up for newsletter todays
+				</p>
+			</div>
+			<div class="contant-10">
+				<input type="email" placeholder="email address">
+			</div>
+			<div class="contant-10">
+				<button>subscribe</button>
+			</div>
+		</div>
+	</section>
+	<!-----------------------footer------------------------>
+	<footer>
+
+		<div class="footer-contant">
+			<div class="s-footer">
+				<div class="footer-box1">
+					<h2>Contact Info</h2>
+					<p>ADDRESS
+						123 Street Name, City, US</p>
+					<p>PHONE
+						Toll Free (123) 456-7890</p>
+
+					<p>EMAIL
+						mail@example.com</p>
+					<i class="fa-brands fa-instagram"></i>
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-x-twitter"></i>
+				</div>
+				<div class="footer-box2">
+					<div class="f-box1">
+						<h2>Customer Service</h2>
+						<a href="./contant.html">Contact</a>
+						<a> PolicyPrivacy </a>
+						<a> PolicyTerms Of</a>
+						<a> UsePayment </a>
+						<a> PolicyCookie </a>
+					</div>
+					<div class="f-box2">
+						<a>
+							UsCorporate
+						</a>
+						<a>PolicyExchange And Return </a>
+						<a> PolicyElectronic Invoice</a>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="m-footer">
+				<div class="f-box1">
+					<h2>About us</h2>
+					<a href="./about.html">About</a>
+					<a> UsOur Stores</a>
+					<a>Careers </a>
+					<a> Brands </a>
+				</div>
+				<div class="f-box1">
+					<h2>Top 5 FAQs
+					</h2>
+					<a>Technical support contacts?</a>
+					<a>How do I know the date of my delivery? </a>
+					<a>My product did not arrive? </a>
+					<a> What are the payment methods?</a>
+					<a>Product availability?</a>
+					<button>Read..</button>
+
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="last-footer">
+			<h4>© tenz eCommerce. 2024. All Rights Reserved</h4>
+			<div class="last-icon">
+				<i class="fa-brands fa-cc-visa"></i>
+				<i class="fa-brands fa-cc-paypal"></i>
+				<i class="fa-brands fa-stripe"></i>
+				<i class="fa-solid fa-signature"></i>
+			</div>
+		</div>
+
+	</footer>
+
+  <!-- ------------script----------- -->
+
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
